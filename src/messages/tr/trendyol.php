@@ -25,4 +25,10 @@ return [
     'Integration Error' => 'Entegrasyon Hatası',
     'Bulk Purchase' => 'Toplu Alım',
     'Force Majeure' => 'Mücbir Sebep',
+    'DeductionInvoices' => 'TY Fatura',
+    'WireTransfer' => 'Virman',
+    'CashAdvance' => 'Erken Ödeme',
+    'IncomingTransfer' => 'Gelen Transfer',
+    'ReturnInvoice' => 'Komisyon Mutabakat Faturasıdır.',
+    'PaymentOrder' => 'Hakediş Ödemesi',
 ];
