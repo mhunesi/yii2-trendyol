@@ -47,5 +47,22 @@ Once the extension is installed, simply use it in your code by  :
                 ],
             ],
           ]
+          
+          
+'controllerMap' => [
+    'migrate' => [
+        'class' => 'luya\console\commands\MigrateController',
+        'migrationNamespaces' => [
+            //..
+        ],
+        'migrationPath' => [
+            //..
+            '@mhunesi/trendyol/migrations'
+        ]
+    ],
+],
+
+php yii trendyol/other-financials {startDate} {endDate}
+php yii trendyol/settlement {startDate} {endDate}
 
 ```
