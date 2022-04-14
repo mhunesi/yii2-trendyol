@@ -60,6 +60,9 @@ Once the extension is installed, simply use it in your code by  :
             '@mhunesi/trendyol/migrations'
         ]
     ],
+    'trendyol' => [
+        'class' => 'mhunesi\trendyol\commands\TrendyolController'
+    ]
 ],
 
 php yii trendyol/other-financials {startDate} {endDate}
